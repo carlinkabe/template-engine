@@ -8,7 +8,12 @@
     "build": "tsc",
     "prepublishOnly": "npm run build"
   },
-  "keywords": ["template", "engine", "typescript", "placeholder"],
+  "keywords": [
+    "template",
+    "engine",
+    "typescript",
+    "placeholder"
+  ],
   "author": "Carlos Kabé",
   "license": "MIT",
   "repository": {
@@ -21,6 +26,6 @@
     "LICENSE"
   ],
   "devDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.9.3"
   }
 }
