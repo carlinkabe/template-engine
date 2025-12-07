@@ -1,5 +1,5 @@
 {
-  "name": "@carlinkabe/template-engine",
+  "name": "kabe-template-engine",
   "version": "1.0.0",
   "description": "Sistema de templates simples e poderoso para TypeScript",
   "main": "dist/index.js",
@@ -18,7 +18,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/carlinkabe/template-engine.git"
+    "url": "https://github.com/carlinkabe/kabe-template-engine.git"
   },
   "files": [
     "dist",

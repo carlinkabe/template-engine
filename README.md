@@ -1,19 +1,19 @@
-# Template Engine
+# Kabé Template Engine
 
 Sistema modular e flexível de templates para TypeScript, permitindo substituição dinâmica de placeholders com suporte a objetos aninhados, validação e formatação customizada.
 
 ## Instalação
 
 ```bash
-npm install template-engine
+npm install kabe-template-engine
 # ou
-yarn add template-engine
+yarn add kabe-template-engine
 ```
 
 ## Uso Rápido
 
 ```typescript
-import { parseTemplate } from './template-engine';
+import { parseTemplate } from './kabe-template-engine';
 
 const message = parseTemplate(
   'Olá {user.name}, bem-vindo ao {server.name}!',
@@ -256,7 +256,7 @@ manager.clear();
 Funções prontas para formatação de valores.
 
 ```typescript
-import { formatters } from './template-engine';
+import { formatters } from './kabe-template-engine';
 ```
 
 #### `formatters.number(value)`
